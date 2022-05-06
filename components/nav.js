@@ -1,6 +1,7 @@
 function nav(){
    return`
    <div id="top">
+   <div id="blank"></div>
    <div class="icon"><img
            src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243">
    </div>

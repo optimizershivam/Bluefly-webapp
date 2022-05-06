@@ -162,12 +162,12 @@ let black= document.getElementById("black")
 
     setInterval(() => {
         black.innerHTML="<p>WELCOME TO BLUEFLY : luxury brand at discounted price</p>"
-    }, 2000);
+    }, 3000);
     
     
     setInterval(() => {
         black.innerHTML="<p>FREE SHIPPING On Order Over $99</p>"
-    }, 3000);
+    }, 6000);
     
 
   
