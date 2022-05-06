@@ -18,13 +18,20 @@ header{
 }
 #top{
     display: flex;
-    justify-content: flex-end;
-   
+    /* justify-content: flex-end; */
+   justify-content: space-between;
+   /* border: 1px solid blue; */
+   align-items: center;
+}
+#blank{
+    width: 23%;
+    /* border: 1px solid red; */
 }
 .icon{
-    margin-right: 200px;
+    /* margin-right: 200px; */
     margin-top: 20px;
     margin-bottom: 5px;
+    /* border: 1px solid red; */
 }
 .icon img{
     width: 200px;
@@ -493,9 +500,9 @@ nav  li:hover .sub-menu{
     padding-top: 6px;
 }
 #carouselExampleDark{
-    height: 650px;
+    height: 700px;
 }
 #carouselExampleDark .carousel-item img{
-    height: 650px;
+    height: 700px;
 }
 
