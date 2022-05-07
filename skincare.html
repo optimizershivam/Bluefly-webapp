@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/products.css">
+
+    <style>
+        /* body { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; } */
+        
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div>
+            <h1>Skincare</h1>
+        </div>
+        <div>
+            <p>Showing 150 results for "Skincare"</p>
+            <div>
+                <select id="sort" onchange="handleNameSort()">
+                    <option value="">Bestselling</option>
+                    <option value="asce">Title: A-Z</option>
+                    <option value="dsce">Title: Z-A</option>
+                    <option value="nto">Date: New to Old</option>
+                    <option value="otn">Date: Old to New</option>
+                    <option value="lth">Price: Low to High</option>
+                    <option value="htl">Price: High to Low</option>
+                    <option value="des">Discount: High to Low</option>
+                    <option value="trend">Trending</option>
+                </select>
+            </div>
+        </div>
+        <div id="box">
+            <div id="sidebar">
+                <p onclick="show()"><i class="fa-solid fa-angle-down"></i> CATEGORY</p>
+                <div id="myDiv">
+                    <input type="checkbox" ><label>Activewear - Coats & Jackets</label><br>
+                    <input type="checkbox"><label>Activewear - Shirts</label><br>
+                    <input type="checkbox"><label>Activewear - Shorts</label><br>
+                    <input type="checkbox"><label>Blazers & Sport Coats</label><br>
+                </div>
+                <p onclick="show1()" ><i class="fa-solid fa-angle-down"></i> BRAND</p>
+                <div id="myDiv2">
+                    <input type="checkbox"><label>Amiri</label><br>
+                    <input type="checkbox"><label>Burberry</label><br>
+                    <input type="checkbox"><label>Gucci</label><br>
+                    <input type="checkbox"><label>Prada</label><br>
+                    <input type="checkbox"><label>Valentino</label><br>
+                </div>
+                <p onclick="show2()"><i class="fa-solid fa-angle-down"></i> COLOR</p>
+                <div id="myDiv3"></div>
+                
+                <p onclick="show3()"><i class="fa-solid fa-angle-down"></i> PRODUCT CONDITION</p>
+                <div id="myDiv4">
+                    <input type="checkbox"><label >New</label>
+                </div>
+                <p onclick="show4()"><i class="fa-solid fa-angle-down"></i> PRICE</p>
+                <div id="myDiv5"></div>
+            </div>
+            <div id="container"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./script/skincare.js"></script>
