@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: .025em;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    z-index: 51;
+    background-color: white;
+    top: 0;
+    width: 100%;
+}
+
+#top {
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    align-items: center;
+}
+
+#blank {
+    width: 23%;
+    /* border: 1px solid red; */
+}
+
+.icon {
+    /* margin-right: 200px; */
+    margin-top: 20px;
+    margin-bottom: 5px;
+    /* border: 1px solid red; */
+}
+
+.icon img {
+    width: 200px;
+    height: 30px;
+}
+
+.nav {
+    margin: 2px 20px;
+    display: flex;
+
+}
+
+.nav svg {
+    margin-right: 20px;
+
+}
+
+.nav #search svg {
+    margin-right: 0px;
+    text-align: center;
+}
+
+.nav #search span {
+    margin-right: 100px;
+    margin-top: -52%;
+}
+
+#search {
+    margin-right: 20px;
+}
+
+/* #navbar{ */
+
+/* } */
+#navbar {
+    margin: 0 auto;
+}
+
+#navbar2 {
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 20px;
+    color: black;
+}
+
+/* #navbar ul{ */
+/* display: flex; */
+/* display: inline-block; */
+/* justify-content: space-around; */
+/* align-items: center; */
+/* margin-right: 80px; */
+/* margin-left: 80px; */
+/* position: relative; */
+/* } */
+
+#navbar2 ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    text-align: center;
+
+}
+
+/* megamenu */
+
+
+.sub-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    /*very imprtant so that the div start with its parent position*/
+    background-color: #FFFFFF;
+    width: 100vw;
+    display: none;
+    padding: 32px;
+    z-index: 10;
+    /* margin-left: -55px; */
+}
+
+/* .sub-menu li{
+          display: block;
+        } */
+nav li:hover .sub-menu {
+    display: block;
+
+}
+
+#navbar .hov:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+#navbar2 .hov:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.sub-menu li {
+    display: block;
+}
+
+.sub-menu a {
+    padding: 0;
+    color: black;
+}
+
+.menu-category {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+
+}
+
+.menu-category-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+
+.menu-category-2 ul li {
+    font-size: 13px;
+    padding: 10px 0;
+    line-height: 10px;
+}
+
+.menu-category-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 25px; */
+    margin-left: 20%;
+}
+
+.menu-category-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 25px; */
+    margin-left: 20%;
+}
+
+.menu-category-5 {
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 25px; */
+    margin-left: 20%;
+}
+
+.menu-category ul li {
+    font-size: 13px;
+    padding: 10px 0;
+    line-height: 10px;
+}
+
+#black {
+    background-color: black;
+    color: #FFFFFF;
+    height: 42px;
+    width: 100%;
+    text-align: center;
+}
+
+#black p {
+    padding-top: 6px;
+}
+

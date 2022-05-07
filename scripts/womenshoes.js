@@ -1,3 +1,5 @@
+
+
 let women_shoes = [
     {
         "snize-view-link href": "https://www.bluefly.com/collections/women-shoes-pumps-heels/products/bf-103665563-yj6h?id=6726652428420",
@@ -990,6 +992,7 @@ let women_shoes = [
         "str_price": "$425"
     }
 ]
+
 let appendData = (data) => {
     let cont = document.getElementById("container");
     cont.innerHTML = null;
