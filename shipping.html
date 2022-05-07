@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="" />
+  <title>Document</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4eeb94ebc8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="loginstyles/shipping.css">
+</head>
+
+<body>
+    <div id="shippingitem">
+        <div id="shippingitemDetails">
+            <a href="#" class="sitelogo">
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?180517" alt="" width="40%" height="40px">
+            </a>
+            <div id="siteicons">
+                <a href="cart.html">Cart</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="checkout.html">Information</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="shipping.html">Shipping</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="payment.html">Payment</a>
+            </div>
+            <div id="shippingAdd">
+                <div class="contactInfo">
+                    <div class="contact">Contact</div>
+                    <div id="email" style="margin-left:30px;"></div>
+                    <a href="checkout.html">
+                        <span>Change</span>
+                    </a>
+                </div>
+                <hr>
+                <div class="shippInfo">
+                    <div class="shipto">ship to</div>
+                    <div id="address"></div>
+                    <a href="checkout.html">
+                        <span>Change</span>
+                    </a>
+                </div>
+            </div>
+            <div id="shippingMethod">
+                <h2>Shipping method</h2>
+                <div class="free">
+                    <input type="radio"  id="standard"value="Standard">
+                    <label for="standard">
+                        <span>Standard</span>
+                        <span id="free" style="float:right;">free</span>
+                    </label>
+                </div>
+            </div>
+            <div class="ContinuetoPayment">
+                <a href="checkout.html">
+                    <i class="fa-solid fa-chevron-left" style="color: black;"></i>
+                    <span id="againCart">Return to information</span></a>
+                <a href="#">
+                    <button id="ToShipping">Continue to payment</button>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div id="SelectedItems"></div>
+    </div>
+
+
+    <script src="scripts/shipping.js" type="module"></script>

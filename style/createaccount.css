@@ -1,0 +1,73 @@
+#Customer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#Create_Account{
+    width: 33%;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+#Create_Account input{
+    width: 95%;
+    height: 44px;
+    margin: 10px 0px 30px;
+    border: 1px solid #e8e8e1;
+}
+#Create_Account label{
+    font-size: 12px;
+    font-family: Futura,sans-serif;
+    font-weight: normal;
+}
+#Create_Account h1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: -5px;
+    font-family: Tiemann, serif;
+    font-weight: normal;
+}
+#Create_Account #Submit{
+    width: 97%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+#shop_Products{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    height: 500px;
+    text-align: center;
+    padding-right: 20px;
+}
+#shop_Products div{
+    /* border: 1px solid red; */
+    width: 32%;
+    margin-left: 20px;
+}
+#shop_Products H3{
+    font-size: 24px;
+    font-family: Tiemann, serif;
+    text-align: center;
+    font-weight: 100;
+}
+#shop_Products p{
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    font-family: Futura, sans-serif;
+    text-align: center;
+}
+#shop_Products button{
+    letter-spacing: 3.4px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid #e8e8e1;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Futura, sans-serif;
+}
