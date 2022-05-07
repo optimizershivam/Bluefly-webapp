@@ -66,7 +66,7 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6>WOMEN'S DESIGNERS</h6>
+                           <h6><a href="womenshoes.html">WOMEN'S DESIGNERS</a></h6>
                            <ul>
                                <li> <a> Burberry</a></li>
                                <li> <a> Chloe</a></li>
@@ -84,7 +84,7 @@ function nav(){
                        </div>
                        <div>
                            <h6>
-                               MEN'S SHOES
+                           <a href="menshoes.html">MEN'S SHOES</a>
                            </h6>
                            <ul>
                                <li> <a> Valentino</a></li>
@@ -99,7 +99,7 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6>MEN'S DESIGNERS</h6>
+                           <h6><a href="mendesigner.html">MEN'S DESIGNERS</a></h6>
                            <ul>
                                <li> <a> WOMEN'S DESIGNERS</a></li>
                                <li> <a> MEN'S DESIGNERS</a></li>
@@ -144,7 +144,7 @@ function nav(){
                            <p>Upto 60% off</p>
                        </div>
                        <div>
-                           <h6> ALL HANDBAGS</h6>
+                           <h6> <a href="womenbaghand.html">ALL HANDBAGS</a></h6>
                            <ul>
                                <li> <a> Shop All</a></li>
                                <li> <a> Backpacks</a></li>
@@ -159,7 +159,7 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6>TOP DESIGNERS</h6>
+                           <h6><a href="topdesigner.html">TOP DESIGNERS</a></h6>
                            <ul>
                                <li> <a> Balenciaga</a></li>
                                <li> <a> Bottega Veneta</a></li>
@@ -179,7 +179,7 @@ function nav(){
                        </div>
                        <div>
                            <h6>  
-                              PRE-OWNED
+                           <a href="womenHandbag.html">PRE-OWNED</a>
                            </h6>
                            <ul>
                                <li> <a>Shop All</a></li>
@@ -194,7 +194,7 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6> ACCESSORIES</h6>
+                           <h6> <a href="womenacc.html">ACCESSORIES</a> </h6>
                            <ul>
                                <li> <a>Bag Charms, Straps, & Accessories</a></li>
                                <li> <a> Belts</a></li>
@@ -273,7 +273,7 @@ function nav(){
                            <p>Upto 70% off</p>
                        </div>
                        <div>
-                           <h6>WOMEN'S SHOES</h6>
+                           <h6><a href="womenclothing.html">CLOTHING</a></h6>
                            <ul>
                                <li> <a> Shop All</a></li>
                                <li> <a> Boots</a></li>
@@ -289,7 +289,22 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6>WOMEN'S DESIGNERS</h6>
+                           <h6> <a href="womenbaghand.html">ALL HANDBAGS</a></h6>
+                           <ul>
+                               <li> <a> Shop All</a></li>
+                               <li> <a> Backpacks</a></li>
+                               <li> <a> Bucket Bags</a></li>
+                               <li> <a>  Clutches</a></li>
+                               <li> <a> Hobo Bags</a></li>
+                               <li> <a>  Satchels</a></li>
+                               <li> <a> Shoulder Bags</a></li>
+                               <li> <a> Tote Bags</a></li>
+                               <li> <a> Wallets & Cardholders</a></li>
+                           
+                           </ul>
+                       </div>
+                       <div>
+                           <h6><a href="womenshoes.html">SHOES</a></h6>
                            <ul>
                                <li> <a> Burberry</a></li>
                                <li> <a> Chloe</a></li>
@@ -307,7 +322,7 @@ function nav(){
                        </div>
                        <div>
                            <h6>
-                               MEN'S SHOES
+                           <a href="womenjewlery.html">JEWELERY</a>
                            </h6>
                            <ul>
                                <li> <a> Valentino</a></li>
@@ -322,23 +337,17 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6>MEN'S DESIGNERS</h6>
+                           <h6> <a href="womenacc.html">ACCESSORIES</a> </h6>
                            <ul>
-                               <li> <a> WOMEN'S DESIGNERS</a></li>
-                               <li> <a> MEN'S DESIGNERS</a></li>
-                               <li> <a> Antonio Maurizi</a></li>
-                               <li> <a> Aquatalia</a></li>
+                               <li> <a>Bag Charms, Straps, & Accessories</a></li>
+                               <li> <a> Belts</a></li>
+                               <li> <a> Cosmetic Bags</a></li>
+                               <li> <a> Hats</a></li>
                                <li> <a> Balenciaga</a></li>
-                               <li> <a> Christian Louboutin</a></li>
-                               <li> <a> Cole Haan</a></li>
-                               <li> <a> Common Projects</a></li>
-                               <li> <a> Giuseppe Zanotti</a></li>
-                               <li> <a> Gucci</a></li>
-                               <li> <a> Prada</a></li>
-                               <li> <a> Saint Laurent</a></li>
-                               <li> <a> Salvatore Ferragamo</a></li>
-                               <li> <a> Tod's</a></li>
-                               <li> <a> Valentino</a></li>
+                               <li> <a> Gloves</a></li>
+                               <li> <a> Scarves & Wraps</a></li>
+                               <li> <a>Optical & Reading Glasses</a></li>
+                               <li> <a> Sunglasses</a></li>
                            </ul>
                        </div>
                        <div>
@@ -359,7 +368,7 @@ function nav(){
                            <p>Upto 60% off</p>
                        </div>
                        <div>
-                           <h6> ALL HANDBAGS</h6>
+                           <h6> <a href="men_clothing.html">CLOTHING</a></h6>
                            <ul>
                                <li> <a> Shop All</a></li>
                                <li> <a> Backpacks</a></li>
@@ -374,27 +383,24 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6>TOP DESIGNERS</h6>
+                           <h6>
+                           <a href="menshoes.html">SHOES</a>
+                           </h6>
                            <ul>
-                               <li> <a> Balenciaga</a></li>
-                               <li> <a> Bottega Veneta</a></li>
-                               <li> <a> Burberry</a></li>
-                               <li> <a> Celine</a></li>
-                               <li> <a> Chloe</a></li>
-                               <li> <a> Dolce & Gabbana</a></li>
-                               <li> <a> Fendi</a></li>
-                               <li> <a> Manolo Blahnik</a></li>
-                               <li> <a> Givenchy</a></li>
-                               <li> <a> Saint Laurent</a></li>
-                               <li> <a> Salvatore Ferragamo</a></li>
-                               <li> <a> Stella McCartney</a></li>
                                <li> <a> Valentino</a></li>
-                               <li> <a> Valentino by Mario Valentino</a></li>
+                               <li> <a> MEN'S SHOES</li>
+                               <li> <a> Shop All</a></li>
+                               <li> <a> Boots</a></li>
+                               <li> <a> Drivers, Loafers & Slip-Ons</a></li>
+                               <li> <a> Oxford & Derby Shoes</a></li>
+                               <li> <a> Sandals & Flip Flops</a></li>
+                               <li> <a> Slippers</a></li>
+                               <li> <a> Sneakers</a></li>
                            </ul>
                        </div>
                        <div>
                            <h6>  
-                              PRE-OWNED
+                           <a href="men_accessories.html">ACCESSORIES</a>
                            </h6>
                            <ul>
                                <li> <a>Shop All</a></li>
@@ -409,7 +415,7 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6> ACCESSORIES</h6>
+                           <h6> <a href="mensjewlery.html">JEWELERY</a></h6>
                            <ul>
                                <li> <a>Bag Charms, Straps, & Accessories</a></li>
                                <li> <a> Belts</a></li>
@@ -483,19 +489,19 @@ function nav(){
                            <p>Upto 70% off</p>
                        </div>
                        <div>
-                           <h6>WOMEN'S SHOES</h6>
+                           <h6>
+                           <a href="womenjewlery.html">JEWELERY</a>
+                           </h6>
                            <ul>
+                               <li> <a> Valentino</a></li>
+                               <li> <a> MEN'S SHOES</li>
                                <li> <a> Shop All</a></li>
                                <li> <a> Boots</a></li>
-                               <li> <a> Espadrilles</a></li>
-                               <li> <a> Flats</a></li>
-                               <li> <a> Mules & Slides</a></li>
-                               <li> <a> Oxfords & Loafers</a></li>
-                               <li> <a> Pumps & Heels</a></li>
-                               <li> <a> Sandals</a></li>
+                               <li> <a> Drivers, Loafers & Slip-Ons</a></li>
+                               <li> <a> Oxford & Derby Shoes</a></li>
+                               <li> <a> Sandals & Flip Flops</a></li>
                                <li> <a> Slippers</a></li>
                                <li> <a> Sneakers</a></li>
-                               <li> <a> Wedges</a></li>
                            </ul>
                        </div>
                        <div>
@@ -563,11 +569,11 @@ function nav(){
                <div class="sub-menu">
                    <ul class="menu-category-5">
                        <div>
-                           <h6>SHOP BY PRICEPOINT</h6>
+                           <h6><a href="under50.html">SHOP BY PRICEPOINT</a></h6>
                            <ul>
-                               <li> <a> Under $25</a></li>
-                               <li> <a> $25-$49.99</a></li>
-                               <li> <a> Shop All Under $50</a></li>
+                               <li> <a href="under50.html"> Under $25</a></li>
+                               <li> <a href="under50.html"> $25-$49.99</a></li>
+                               <li> <a href="under50.html"> Shop All Under $50</a></li>
                        
                            </ul>
                        </div>
@@ -594,21 +600,21 @@ function nav(){
                    <ul class="menu-category-3">
 
                        <div>
-                           <h6>BEAUTY</h6>
-                           <h6>FRAGRANCE</h6>
+                           
+                           <h6><a href="fragrance.html">FRAGRANCE</a></h6>
                            <ul>
                                <li> <a> Shop all</a></li>
                            </ul>
                        </div>
                        <div>
-                           <h6>SKINCARE</h6>
+                           <h6><a href="skincare.html">SKINCARE</a></h6>
 
                            <ul>
                                <li> <a> Shop all</a></li>
                            </ul>
                        </div>
                        <div>
-                           <h6>HAIRCARE</h6>
+                           <h6><a href="haircare.html">HAIRCARE</a></h6>
 
                            <ul>
                                <li> <a> Shop all</a></li>
@@ -628,7 +634,7 @@ function nav(){
                            <p>Upto 65% off</p>
                        </div>
                        <div>
-                           <h6>  WOMEN'S</h6>
+                           <h6> <a href="clearancewomen.html">WOMEN'S</a> </h6>
                            <ul>
                                <li> <a>Accessories</a></li>
                                <li> <a>Activewear </a></li>
@@ -648,7 +654,7 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6>MEN'S</h6>
+                           <h6><a href="clearancemen.html">MEN'S</a></h6>
                            <ul>
                                <li> <a> Accessories</a></li>
                                <li> <a> Coats & Jackets</a></li>
