@@ -50,7 +50,7 @@ function nav(){
                            <p>Upto 70% off</p>
                        </div>
                        <div>
-                           <h6>WOMEN'S SHOES</h6>
+                           <h6><a href="womenshoes.html">WOMEN'S SHOES</a></h6>
                            <ul>
                                <li> <a> Shop All</a></li>
                                <li> <a> Boots</a></li>
