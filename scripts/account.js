@@ -1,6 +1,6 @@
-// import shop from "../signincomponents/shop.js";
+import nav from "../components/nav.js";
 
-// document.getElementById("shop_Products").innerHTML = shop();
+document.getElementById("shop_Products").innerHTML = nav();
 
 
 
@@ -12,7 +12,8 @@ console.log("UserAccount:",UserAccount)
 // let currentUser=UserAccount[UserAccount.length-1]
 // console.log(currentUser.iscurrent)
 
-document.getElementById("user_name").innerText=UserAccount[UserAccount.length-1].firstname+" "+UserAccount[UserAccount.length-1].lastname;
+document.getElementById("user_name").innerText=(UserAccount[UserAccount.length-1].firstname+" "
+                                                +UserAccount[UserAccount.length-1].lastname);
 
 document.getElementById("log_out").addEventListener("click", logingOut);
 
@@ -20,6 +21,6 @@ function logingOut() {
     event.preventDefault()
     document.getElementById("user_name").innerText=null;
     // localStorage.clear();
-    window.location.href="login.html";
+    window.location.href="index.html";
 }
 
