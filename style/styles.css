@@ -500,9 +500,10 @@ nav  li:hover .sub-menu{
     padding-top: 6px;
 }
 #carouselExampleDark{
-    height: 700px;
+    margin-top: 203px;
+    height: 450px;
 }
 #carouselExampleDark .carousel-item img{
-    height: 700px;
+    height: 450px;
 }
 

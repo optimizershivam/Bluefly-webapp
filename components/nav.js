@@ -679,4 +679,19 @@ function nav(){
    `
 }
 
-export{nav}
+let time = () => {
+    let black = document.getElementById("black")
+
+
+    setInterval(() => {
+        black.innerHTML = "<p>WELCOME TO BLUEFLY : luxury brand at discounted price</p>"
+    }, 3000);
+
+
+    setInterval(() => {
+        black.innerHTML = "<p>FREE SHIPPING On Order Over $99</p>"
+    }, 6000);
+}
+
+
+export { nav, time };

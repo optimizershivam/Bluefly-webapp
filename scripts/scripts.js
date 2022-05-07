@@ -157,17 +157,17 @@ sub.map(({source,text,money,original,percent})=>{
 // https://www2.hm.com/en_us/women/products/dresses/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=model&offset=36&page-size=36
 
 
-let black= document.getElementById("black")
+// let black= document.getElementById("black")
 
 
-    setInterval(() => {
-        black.innerHTML="<p>WELCOME TO BLUEFLY : luxury brand at discounted price</p>"
-    }, 3000);
+//     setInterval(() => {
+//         black.innerHTML="<p>WELCOME TO BLUEFLY : luxury brand at discounted price</p>"
+//     }, 3000);
     
     
-    setInterval(() => {
-        black.innerHTML="<p>FREE SHIPPING On Order Over $99</p>"
-    }, 6000);
+//     setInterval(() => {
+//         black.innerHTML="<p>FREE SHIPPING On Order Over $99</p>"
+//     }, 6000);
     
 
   
