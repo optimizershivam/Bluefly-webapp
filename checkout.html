@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="" />
+  <title>Document</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4eeb94ebc8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="loginstyles/checkout.css">
+</head>
+
+<body>
+    <div id="checkout">
+        <div id="shippingDetails">
+            <a href="#" class="sitelogo">
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?180517" alt="" width="40%" height="40px">
+            </a>
+            <div id="icons">
+                <a href="cart.html">Cart</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="checkout.html">Information</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="shipping.html">Shipping</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="#">Payment</a>
+            </div>
+            <div id="expressCheckout">
+                <div id="expressCheckoutLinks">
+                    <fieldset class="title">
+                        <legend>Express Checkout</legend>
+                        <a href="https://shop.app/pay/authentication/login">
+                            <img src="https://cdn.shopify.com/s/files/1/0755/2467/t/34/assets/sp.png?v=162265232473223178351638170544" alt="" width="170px" height="38px" style="border-radius: 5px;">
+                        </a>
+                        <a href="https://www.paypal.com/checkoutnow?locale.x=en_US&fundingSource=paypal&sessionID=uid_5fafd2af21_mtg6mzk6nda&buttonSessionID=uid_5e767a38b4_mtg6nde6nte&env=production&fundingOffered=paypal&logLevel=warn&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9hcGkvY2hlY2tvdXQubWluLmpzIn0&uid=16dc88cdbd&version=min&token=EC-50J83594SN6781354&xcomponent=1">
+                            <img src="http://legacyrivertrips.com/wp-content/uploads/2018/08/paypal-logo.jpg" alt="" width="170px" height="38px" style="border-radius: 5px;">
+                        </a>
+                        <a href="https://pay.google.com/gp/w/u/0/home/signup?sctid=3844023275958183">
+                            <img src="https://mobi-corp.ru/themes/mobi-corp/img/pays/googlepay-button.png" alt="" width="170px" height="43px" style="border-radius: 5px; margin-top: 2px;">
+                        </a>
+                    </fieldset>
+                    <fieldset class="Or">
+                        <legend>OR</legend>
+                    </fieldset>
+                </div>
+            </div>
+                <div id="ContactInformation">
+                    <div>
+                        <h2>Contact information</h2>
+                    </div>
+                    <div id="liveUser">
+                        <img src="https://clt-lana.org/images/default-user.png" alt="" width="50px" height="50px">
+                        <div class="liveUser">
+                            <p id="user"></p>
+                            <a href="#">Log Out</a>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Checkboxscales" name="scales" checked  style="font-size: 14px; margin-top: 20px;">
+                               
+                        <label for="Checkboxscales">Email me with news and offers</label>
+                      </div>
+                    <form id="ShippingAddress">
+                        <h2>Shipping Address</h2>
+                        <div class="FirstLastName">
+                            <input type="text" id="UserFirstName" placeholder="First Name">
+                            <input type="text" id="UserLastName" placeholder="Last Name">
+                        </div>
+                        <div class="cityAddress">
+                            <input type="text" id="addresss" placeholder="Address">
+                            <p style="font-size: 14px; margin-top: -10px; margin-bottom: -10px;">Add a house number if you have one</p>
+                            <input type="text" id="optional" placeholder="Apartmet, suite, etc(optional)">
+                            <input type="text" id="city" placeholder="City">
+                        </div>
+                        <div class="countryAddress">
+                            <select name="" id="region">
+                                <option value="Country/Region">Country/Region</option>
+                                <option value="United States">United States</option>
+                            </select>
+                            <!-- <input type="text" id="region" placeholder="Country/Region"> -->
+                            <!-- <input type="text" id="state" placeholder="State"> -->
+                            <select name="" id="state">
+                                <option value="state">state</option>
+                                <option value="Alabama">Alabama</option>
+                                <option value="Alaska">Alaska</option>
+                                <option value="American Samoa">American Samoa</option>
+                                <option value="Arizona">Arizona</option>
+                                <option value="Arkansas">Arkansas</option>
+                                <option value="California">California</option>
+                                <option value="Colorada">Colorada</option>
+                                <option value="Connecticut">Connecticut</option>
+                                <option value="Delaware">Delaware</option>
+                                <option value="Florida">Florida</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Indiana">Indiana</option>
+                                <option value="Maryland">Maryland</option>
+                                <option value="Michigan">Michigan</option>
+                                <option value="Marshall islands">Marshall islands</option>
+                            </select>
+                            <input type="number" id="zipCode" placeholder="ZIP code">
+                        </div>
+                        <div class="PhoneNo">
+                            <input type="number" id="PhoneNo" placeholder="Phone">
+                        </div>
+                        <div class="Continuetoshipping">
+                            <a href="#">
+                                <i class="fa-solid fa-chevron-left" style="color: black;"></i>
+                                <span id="againCart">Return to cart</span></a>
+                            <a href="shipping.html">
+                                <button id="ToShipping">Continue to shipping</button>
+                            </a>
+                        </div>
+                    </form>
+            </div>
+        </div>
+        <hr>
+        <div id="userCartinfo"></div>
+    </div>
+</body>
+
+
+<script src="scripts/checkout.js" type="module"></script>

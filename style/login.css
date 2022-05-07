@@ -1,0 +1,46 @@
+#Customer_Account{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#Log_in{
+    width: 33%;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+#Log_in input{
+    width: 95%;
+    height: 44px;
+    margin: 10px 0px 30px;
+    border: 1px solid #e8e8e1;
+}
+#Log_in label{
+    font-size: 12px;
+    font-family: Futura,sans-serif;
+    font-weight: normal;
+}
+#Log_in h1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: -5px;
+    font-family: Tiemann, serif;
+    font-weight: normal;
+}
+#Log_in #Submit1{
+    width: 97%;
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+#accRef{
+    text-align: center;
+    margin-top: -15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-size: Futura, sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: 100;
+}

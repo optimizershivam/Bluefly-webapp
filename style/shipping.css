@@ -1,0 +1,144 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+#shippingitem{
+    width: 85%;
+    height: 450px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0
+}
+#shippingitemDetails{
+    width: 53%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+    float: left;
+    /* border: 1px solid red; */
+}
+#SelectedItems{
+    width: 45%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+    float: right;
+    border: 1px solid black;
+}
+#shippingitemDetails .sitelogo{
+    margin-top: 55px;
+}
+#shippingitemDetails #siteicons{
+    font-size: 12px;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    margin-top: 15px;
+    text-decoration: none;
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+*/}
+#shippingitemDetails #siteicons i{
+    margin: 5px 5px;
+}
+#shippingitemDetails #siteicons a{
+    text-decoration: none;
+    color: rgb(25, 19, 19);
+}
+#shippingitemDetails #shippingAdd{
+    border: 1px solid #9a9a9a;
+    width: 90%;
+    border-radius: 5px;
+    padding-left: 8px;
+    margin-top: 20px;
+    padding-right: 8px;
+}
+#shippingAdd .contactInfo, #shippingAdd .shippInfo{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#shippingAdd .shippInfo{
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+#shippingAdd .contactInfo #email, #shippingAdd .shippInfo #address {
+    margin-left: 35px;
+    width: 70%;
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+#shippingAdd .contactInfo .contact, #shippingAdd .shippInfo .shipto {
+    /* border: 1px solid red; */
+    font-size: 14px;
+    color: #7a7aa3;
+}
+#shippingAdd .contactInfo a, #shippingAdd .shippInfo a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-left: 35px;
+    /* border: 1px solid red; */
+}
+
+#shippingitem #shippingMethod .free{
+    width: 88%;
+    height: 42px;
+    padding-left: 8px;
+    border-radius: 5px;
+    padding-right: 20px;
+    font-size: 14px;
+    border: 1px solid #9a9a9a;
+}
+#shippingitem #shippingMethod .free #standard, #shippingitem #shippingMethod .free #free{
+    margin-top: 12px;
+} 
+#shippingMethod h2{
+    font-size: 18px;
+    line-height: 1.3em;
+    font-weight: normal;
+} 
+#shippingitemDetails .ContinuetoPayment{
+    /* border: 1px solid red; */
+    width: 93%;
+}
+
+#shippingitemDetails .ContinuetoPayment{
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#shippingitemDetails .ContinuetoPayment #ToShipping{
+    width: 180px;
+    height: 60px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+}
+#shippingitemDetails .ContinuetoPayment a{
+    color: black;
+    text-decoration: none;
+}
+#shippingitemDetails .ContinuetoPayment button{
+    border-radius: 10px;
+}
+
+
+#SelectedItems{
+    background-color:#fafafa;
+    border: 1px solid red;
+}
