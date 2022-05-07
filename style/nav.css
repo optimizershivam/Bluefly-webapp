@@ -25,7 +25,6 @@ header {
 
 #blank {
     width: 23%;
-    /* border: 1px solid red; */
 }
 
 .icon {
@@ -312,4 +311,9 @@ footer {
 #lastb p {
     margin-top: 10px;
     margin-bottom: 40px;
+}
+.sub-menu h6 {
+    /* font-weight: 400; */
+    font-size: 13px;
+    color: black;
 }
