@@ -223,40 +223,43 @@ function nav(){
                            <p>Upto 65% off</p>
                        </div>
                        <div>
-                           <h6> FEATURED DESIGNERS</h6>
+                          <h6><a href="womenshoes.html">WOMEN'S DESIGNERS</a></h6>
                            <ul>
-                               <li> <a> 
-
-                                    Balenciaga   &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp   Miu Miu
-                               </a></li>
-                               <li> <a> Bottega Veneta &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp Moncler</a></li>
-                               <li> <a> Burberry  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Moose Knuckles</a></li>
-                               <li> <a> Celine &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Moschino</a></li>
-                               <li> <a>Chloe  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Prada</a></li>
-                               <li> <a> Christian Louboutin  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Roberto Cavalli</a></li>
-                               <li> <a>Dior  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp    Saint Laurent</a></li>
-                               <li> <a> Dolce & Gabbana &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp   Salvatore Ferragamo</a></li>
-                               <li> <a>Fendi  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp    Stella McCartney</a></li>
-                               <li> <a>Giuseppe Zanotti  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Stuart Weitzman</a></li>
-                               <li> <a>Givenchy  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp   Tod's</a></li>
-                               <li> <a>Gucci  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp   Tom Ford</a></li>
-                               <li> <a>Jimmy Choo  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp     Valentino</a></li>
-                               <li> <a>Kate Spade  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp     Versace</a></li>
-                           
+                               <li> <a> Burberry</a></li>
+                               <li> <a> Chloe</a></li>
+                               <li> <a> Christian Louboutin</a></li>
+                               <li> <a> Dolce & Gabbana</a></li>
+                               <li> <a> Giuseppe Zanotti</a></li>
+                               <li> <a> Gucci</a></li>
+                               <li> <a> Jimmy Choo</a></li>
+                               <li> <a> Manolo Blahnik</a></li>
+                               <li> <a> Prada</a></li>
+                               <li> <a> Saint Laurent</a></li>
+                               <li> <a> Salvatore Ferragamo</a></li>
+                               <li> <a> Tod's</a></li>
                            </ul>
                        </div>
+                
                        <div>
-                           <h6>By A-Z</h6>
+                       <h6><a href="mendesigner.html">MEN'S DESIGNERS</a></h6>
                            <ul>
-                               <li> <a> A &nbsp &nbsp B &nbsp &nbsp C &nbsp &nbsp D</a></li>
-                               <li> <a> E &nbsp &nbsp F &nbsp &nbsp G &nbsp &nbsp H</a></li>
-                               <li> <a> I &nbsp &nbsp J &nbsp &nbsp K &nbsp &nbsp L</a></li>
-                               <li> <a> M &nbsp &nbsp N &nbsp &nbsp O &nbsp &nbsp P</a></li>
-                               <li> <a> Q &nbsp &nbsp R &nbsp &nbsp S &nbsp &nbsp T</a></li>
-                               <li> <a> U &nbsp &nbsp V &nbsp &nbsp W &nbsp &nbsp X</a></li>
-                               <li> <a> Y &nbsp &nbsp Z &nbsp &nbsp # &nbsp &nbsp ALL</a></li>
+                              
+                               <li> <a> Antonio Maurizi</a></li>
+                               <li> <a> Aquatalia</a></li>
+                               <li> <a> Balenciaga</a></li>
+                               <li> <a> Christian Louboutin</a></li>
+                               <li> <a> Cole Haan</a></li>
+                               <li> <a> Common Projects</a></li>
+                               <li> <a> Giuseppe Zanotti</a></li>
+                               <li> <a> Gucci</a></li>
+                               <li> <a> Prada</a></li>
+                               <li> <a> Saint Laurent</a></li>
+                               <li> <a> Salvatore Ferragamo</a></li>
+                               <li> <a> Tod's</a></li>
+                               <li> <a> Valentino</a></li>
                            </ul>
                        </div>
+  
                        
                    </ul>
                </div>
@@ -350,12 +353,7 @@ function nav(){
                                <li> <a> Sunglasses</a></li>
                            </ul>
                        </div>
-                       <div>
-                           <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/SHOES-MEN.jpg?4112"
-                               alt="">
-                           <h6>DRIVERS, LOAFERS & SLIP-ONS</h6>
-                           <p>Upto 60% off</p>
-                       </div>
+                      
                    </ul>
                </div>
            </li>
@@ -437,43 +435,52 @@ function nav(){
                <div class="sub-menu">
                    <ul class="menu-category-4">
                        <div><img
-                               src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/handbag.jpg?v=1598514963">
-                           <h6>GUCCI</h6>
-                           <p>Upto 65% off</p>
+                               src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/sunglasses_df9c0648-8d79-459a-ad8d-a7c1869f40db.jpg?v=1598516553">
+                           <h6>SUNGLASSES</h6>
+                           <p>Upto 70% off</p>
                        </div>
                        <div>
-                           <h6> FEATURED DESIGNERS</h6>
+                           <h6> <a href="womensunglass.html">WOMEN'S SUNGLASSES</a> </h6>
                            <ul>
                                <li> <a> 
-
-                                    Balenciaga   &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp   Miu Miu
+                               Shop All
                                </a></li>
-                               <li> <a> Bottega Veneta &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp Moncler</a></li>
-                               <li> <a> Burberry  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Moose Knuckles</a></li>
-                               <li> <a> Celine &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Moschino</a></li>
-                               <li> <a>Chloe  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Prada</a></li>
-                               <li> <a> Christian Louboutin  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Roberto Cavalli</a></li>
-                               <li> <a>Dior  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp    Saint Laurent</a></li>
-                               <li> <a> Dolce & Gabbana &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp   Salvatore Ferragamo</a></li>
-                               <li> <a>Fendi  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp    Stella McCartney</a></li>
-                               <li> <a>Giuseppe Zanotti  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Stuart Weitzman</a></li>
-                               <li> <a>Givenchy  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp   Tod's</a></li>
-                               <li> <a>Gucci  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp   Tom Ford</a></li>
-                               <li> <a>Jimmy Choo  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp     Valentino</a></li>
-                               <li> <a>Kate Spade  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp     Versace</a></li>
+                               <li> <a>Burberry</a></li>
+                               <li> <a> Chanel</a></li>
+                               <li> <a> Chloe</a></li>
+                               <li> <a>Dior</a></li>
+                               <li> <a> Dolce & Gabbana</a></li>
+                               <li> <a>Fendi</a></li>
+                               <li> <a>Givenchy</a></li>
+                               <li> <a>Gucci</a></li>
+                               <li> <a>Jimmy Choo</a></li>
+                               <li> <a> Miu Miu</a></li>
+                               <li> <a>Prada</a></li>
+                               <li> <a>Saint Laurent</a></li>
+                               <li> <a>Stella McCartney</a></li>
+                               <li> <a>Tom Ford</a></li>
+                               <li> <a> Valentino</a></li>
                            
                            </ul>
                        </div>
                        <div>
-                           <h6>By A-Z</h6>
+                           <h6 ><a href="mensunglass.html">MEN'S SUNGLASSES</a></h6>
                            <ul>
-                               <li> <a> A &nbsp &nbsp B &nbsp &nbsp C &nbsp &nbsp D</a></li>
-                               <li> <a> E &nbsp &nbsp F &nbsp &nbsp G &nbsp &nbsp H</a></li>
-                               <li> <a> I &nbsp &nbsp J &nbsp &nbsp K &nbsp &nbsp L</a></li>
-                               <li> <a> M &nbsp &nbsp N &nbsp &nbsp O &nbsp &nbsp P</a></li>
-                               <li> <a> Q &nbsp &nbsp R &nbsp &nbsp S &nbsp &nbsp T</a></li>
-                               <li> <a> U &nbsp &nbsp V &nbsp &nbsp W &nbsp &nbsp X</a></li>
-                               <li> <a> Y &nbsp &nbsp Z &nbsp &nbsp # &nbsp &nbsp ALL</a></li>
+                               <li> <a> Shop All</a></li>
+                               <li> <a>Bottega Veneta</a></li>
+                               <li> <a> Burberry</a></li>
+                               <li> <a> Cartier</a></li>
+                               <li> <a> Costa Del Mar</a></li>
+                               <li> <a>  Dior</a></li>
+                               <li> <a> Dolce & Gabbana</a></li>
+                               <li> <a> Ermenegildo Zegna</a></li>
+                               <li> <a>Gucci</a></li>
+                               <li> <a> Persol</a></li>
+                               <li> <a>Prada</a></li>
+                               <li> <a>Ray Ban</a></li>
+                               <li> <a>Saint Laurent</a></li>
+                               <li> <a> Tom Ford</a></li>
+                               <li> <a> Versace</a></li>
                            </ul>
                        </div>
                        
@@ -505,7 +512,7 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6>WOMEN'S DESIGNERS</h6>
+                       <h6><a href="womenshoes.html">WOMEN'S DESIGNERS</a></h6>
                            <ul>
                                <li> <a> Burberry</a></li>
                                <li> <a> Chloe</a></li>
@@ -521,27 +528,11 @@ function nav(){
                                <li> <a> Tod's</a></li>
                            </ul>
                        </div>
+                       
                        <div>
-                           <h6>
-                               MEN'S SHOES
-                           </h6>
+                       <h6><a href="mendesigner.html">MEN'S DESIGNERS</a></h6>
                            <ul>
-                               <li> <a> Valentino</a></li>
-                               <li> <a> MEN'S SHOES</li>
-                               <li> <a> Shop All</a></li>
-                               <li> <a> Boots</a></li>
-                               <li> <a> Drivers, Loafers & Slip-Ons</a></li>
-                               <li> <a> Oxford & Derby Shoes</a></li>
-                               <li> <a> Sandals & Flip Flops</a></li>
-                               <li> <a> Slippers</a></li>
-                               <li> <a> Sneakers</a></li>
-                           </ul>
-                       </div>
-                       <div>
-                           <h6>MEN'S DESIGNERS</h6>
-                           <ul>
-                               <li> <a> WOMEN'S DESIGNERS</a></li>
-                               <li> <a> MEN'S DESIGNERS</a></li>
+                               
                                <li> <a> Antonio Maurizi</a></li>
                                <li> <a> Aquatalia</a></li>
                                <li> <a> Balenciaga</a></li>
