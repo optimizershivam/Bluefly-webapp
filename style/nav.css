@@ -312,8 +312,8 @@ footer {
     margin-top: 10px;
     margin-bottom: 40px;
 }
-.sub-menu h6 {
-    /* font-weight: 400; */
-    font-size: 13px;
-    color: black;
+ul >li:hover
+{
+   cursor: pointer; 
+   font-size: 20px;
 }

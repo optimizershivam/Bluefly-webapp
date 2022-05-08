@@ -518,4 +518,8 @@ nav  li:hover .sub-menu{
     height: 450px;
     width: 100%;
 }
-
+ul >li:hover
+{
+   cursor: pointer; 
+   font-size: 20px;
+}
