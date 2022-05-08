@@ -1,4 +1,5 @@
 
+
 import{nav,time} from "./components/nav.js"
 
 document.getElementById("head").innerHTML=nav()
@@ -144,4 +145,5 @@ sub.map(({source,text,money,original,percent})=>{
 
 
    document.getElementById("trendingnow").append(div)
+
 })

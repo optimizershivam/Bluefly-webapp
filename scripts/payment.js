@@ -1,3 +1,4 @@
+
 const cart1 = JSON.parse(localStorage.getItem("cart")) || [];
 
 console.log(cart1);
@@ -48,6 +49,7 @@ cart1.map(({ image1, brand, title, price }) => {
     document.getElementById("tota").innerText = `$${sum}`
 
 })
+
 
 
 

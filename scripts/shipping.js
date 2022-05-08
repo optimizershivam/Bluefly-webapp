@@ -56,6 +56,7 @@ cart1.map(({ image1, brand, title, price }) => {
 
 
 let UserAccount = JSON.parse(localStorage.getItem("UserData"));
+
 console.log("UserAccount:", UserAccount)
 
 document.getElementById("email").innerText = UserAccount[UserAccount.length - 1].email;

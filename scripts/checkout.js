@@ -54,7 +54,7 @@ cart1.map(({image1,brand,title,price})=>{
 
 
 let UserAccount = JSON.parse(localStorage.getItem("UserData"));
-console.log("UserAccount:",UserAccount)
+//console.log("UserAccount:",UserAccount)
 
 document.getElementById("user").innerText=((UserAccount[UserAccount.length-1].firstname+" "+UserAccount[UserAccount.length-1].lastname)+" "+UserAccount[UserAccount.length-1].email);
 
@@ -90,15 +90,15 @@ function sigiinfunction() {
             optional:optional,
             city:city,
             region:region,
-                    zipCode:zipCode,
+            zipCode:zipCode,
             state:state,
-    phoneno:phoneno
+            phoneno:phoneno
 
         }
         Address.push(AdressObj);
         localStorage.setItem("UserAddress",JSON.stringify(Address))
         
-        console.log("Address:",Address)
+        //console.log("Address:",Address)
         window.location.href="shipping.html";
     }
     

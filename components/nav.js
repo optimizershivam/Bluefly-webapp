@@ -28,6 +28,7 @@ function nav(){
        <svg  xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.5em"
            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" id="cart-icon">
            
+
            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                stroke-width="2">
                <path
@@ -56,7 +57,7 @@ function nav(){
                        </div>
                        <div>
                            <h6><a href="womenshoes.html">WOMEN'S SHOES</a></h6>
-                           <ul>
+                           <ul id="ws">
                                <li> <a> Shop All</a></li>
                                <li> <a> Boots</a></li>
                                <li> <a> Espadrilles</a></li>
@@ -71,8 +72,8 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6><a href="womenshoes.html">WOMEN'S DESIGNERS</a></h6>
-                           <ul>
+                           <h6  ><a href="womenshoes.html">WOMEN'S DESIGNERS</a></h6>
+                           <ul id="abc">
                                <li> <a> Burberry</a></li>
                                <li> <a> Chloe</a></li>
                                <li> <a> Christian Louboutin</a></li>
@@ -91,7 +92,7 @@ function nav(){
                            <h6>
                            <a href="menshoes.html">MEN'S SHOES</a>
                            </h6>
-                           <ul>
+                           <ul id="abcd">
                                <li> <a> Valentino</a></li>
                                <li> <a> MEN'S SHOES</li>
                                <li> <a> Shop All</a></li>
@@ -105,7 +106,7 @@ function nav(){
                        </div>
                        <div>
                            <h6><a href="mendesigner.html">MEN'S DESIGNERS</a></h6>
-                           <ul>
+                           <ul id="abcde">
                                <li> <a> WOMEN'S DESIGNERS</a></li>
                                <li> <a> MEN'S DESIGNERS</a></li>
                                <li> <a> Antonio Maurizi</a></li>
@@ -150,7 +151,7 @@ function nav(){
                        </div>
                        <div>
                            <h6> <a href="womenbaghand.html">ALL HANDBAGS</a></h6>
-                           <ul>
+                           <ul id="four">
                                <li> <a> Shop All</a></li>
                                <li> <a> Backpacks</a></li>
                                <li> <a> Bucket Bags</a></li>
@@ -165,7 +166,7 @@ function nav(){
                        </div>
                        <div>
                            <h6><a href="topdesigner.html">TOP DESIGNERS</a></h6>
-                           <ul>
+                           <ul id="five">
                                <li> <a> Balenciaga</a></li>
                                <li> <a> Bottega Veneta</a></li>
                                <li> <a> Burberry</a></li>
@@ -186,7 +187,7 @@ function nav(){
                            <h6>  
                            <a href="womenHandbag.html">PRE-OWNED</a>
                            </h6>
-                           <ul>
+                           <ul id="six">
                                <li> <a>Shop All</a></li>
                                <li> <a>Bucket Bags</li>
                                <li> <a>Clutches</a></li>
@@ -200,7 +201,7 @@ function nav(){
                        </div>
                        <div>
                            <h6> <a href="womenacc.html">ACCESSORIES</a> </h6>
-                           <ul>
+                           <ul id="seven">
                                <li> <a>Bag Charms, Straps, & Accessories</a></li>
                                <li> <a> Belts</a></li>
                                <li> <a> Cosmetic Bags</a></li>
@@ -229,7 +230,7 @@ function nav(){
                        </div>
                        <div>
                           <h6><a href="womenshoes.html">WOMEN'S DESIGNERS</a></h6>
-                           <ul>
+                           <ul id="eight">
                                <li> <a> Burberry</a></li>
                                <li> <a> Chloe</a></li>
                                <li> <a> Christian Louboutin</a></li>
@@ -247,7 +248,7 @@ function nav(){
                 
                        <div>
                        <h6><a href="mendesigner.html">MEN'S DESIGNERS</a></h6>
-                           <ul>
+                           <ul id="nine">
                               
                                <li> <a> Antonio Maurizi</a></li>
                                <li> <a> Aquatalia</a></li>
@@ -282,7 +283,7 @@ function nav(){
                        </div>
                        <div>
                            <h6><a href="womenclothing.html">CLOTHING</a></h6>
-                           <ul>
+                           <ul id="ten">
                                <li> <a> Shop All</a></li>
                                <li> <a> Boots</a></li>
                                <li> <a> Espadrilles</a></li>
@@ -298,7 +299,7 @@ function nav(){
                        </div>
                        <div>
                            <h6> <a href="womenbaghand.html">ALL HANDBAGS</a></h6>
-                           <ul>
+                           <ul id="eleven">
                                <li> <a> Shop All</a></li>
                                <li> <a> Backpacks</a></li>
                                <li> <a> Bucket Bags</a></li>
@@ -313,7 +314,7 @@ function nav(){
                        </div>
                        <div>
                            <h6><a href="womenshoes.html">SHOES</a></h6>
-                           <ul>
+                           <ul id="tweleve">
                                <li> <a> Burberry</a></li>
                                <li> <a> Chloe</a></li>
                                <li> <a> Christian Louboutin</a></li>
@@ -332,7 +333,7 @@ function nav(){
                            <h6>
                            <a href="womenjewlery.html">JEWELERY</a>
                            </h6>
-                           <ul>
+                           <ul id="thirteen">
                                <li> <a> Valentino</a></li>
                                <li> <a> MEN'S SHOES</li>
                                <li> <a> Shop All</a></li>
@@ -346,7 +347,7 @@ function nav(){
                        </div>
                        <div>
                            <h6> <a href="womenacc.html">ACCESSORIES</a> </h6>
-                           <ul>
+                           <ul id="fourteen">
                                <li> <a>Bag Charms, Straps, & Accessories</a></li>
                                <li> <a> Belts</a></li>
                                <li> <a> Cosmetic Bags</a></li>
@@ -372,7 +373,7 @@ function nav(){
                        </div>
                        <div>
                            <h6> <a href="men_clothing.html">CLOTHING</a></h6>
-                           <ul>
+                           <ul id="fifteen">
                                <li> <a> Shop All</a></li>
                                <li> <a> Backpacks</a></li>
                                <li> <a> Bucket Bags</a></li>
@@ -389,7 +390,7 @@ function nav(){
                            <h6>
                            <a href="menshoes.html">SHOES</a>
                            </h6>
-                           <ul>
+                           <ul id="sixteen">
                                <li> <a> Valentino</a></li>
                                <li> <a> MEN'S SHOES</li>
                                <li> <a> Shop All</a></li>
@@ -405,7 +406,7 @@ function nav(){
                            <h6>  
                            <a href="men_accessories.html">ACCESSORIES</a>
                            </h6>
-                           <ul>
+                           <ul id="seventeen">
                                <li> <a>Shop All</a></li>
                                <li> <a>Bucket Bags</li>
                                <li> <a>Clutches</a></li>
@@ -419,7 +420,7 @@ function nav(){
                        </div>
                        <div>
                            <h6> <a href="mensjewlery.html">JEWELERY</a></h6>
-                           <ul>
+                           <ul id="eighteen">
                                <li> <a>Bag Charms, Straps, & Accessories</a></li>
                                <li> <a> Belts</a></li>
                                <li> <a> Cosmetic Bags</a></li>
@@ -446,7 +447,7 @@ function nav(){
                        </div>
                        <div>
                            <h6> <a href="womensunglass.html">WOMEN'S SUNGLASSES</a> </h6>
-                           <ul>
+                           <ul id="nineteen">
                                <li> <a> 
                                Shop All
                                </a></li>
@@ -470,7 +471,7 @@ function nav(){
                        </div>
                        <div>
                            <h6 ><a href="mensunglass.html">MEN'S SUNGLASSES</a></h6>
-                           <ul>
+                           <ul id="twenty">
                                <li> <a> Shop All</a></li>
                                <li> <a>Bottega Veneta</a></li>
                                <li> <a> Burberry</a></li>
@@ -504,7 +505,7 @@ function nav(){
                            <h6>
                            <a href="womenjewlery.html">JEWELERY</a>
                            </h6>
-                           <ul>
+                           <ul id="twenty-one">
                                <li> <a> Valentino</a></li>
                                <li> <a> MEN'S SHOES</li>
                                <li> <a> Shop All</a></li>
@@ -518,7 +519,7 @@ function nav(){
                        </div>
                        <div>
                        <h6><a href="womenshoes.html">WOMEN'S DESIGNERS</a></h6>
-                           <ul>
+                           <ul id="twenty-two">
                                <li> <a> Burberry</a></li>
                                <li> <a> Chloe</a></li>
                                <li> <a> Christian Louboutin</a></li>
@@ -536,7 +537,7 @@ function nav(){
                        
                        <div>
                        <h6><a href="mendesigner.html">MEN'S DESIGNERS</a></h6>
-                           <ul>
+                           <ul id="twenty-three">
                                
                                <li> <a> Antonio Maurizi</a></li>
                                <li> <a> Aquatalia</a></li>
@@ -566,7 +567,7 @@ function nav(){
                    <ul class="menu-category-5">
                        <div>
                            <h6><a href="under50.html">SHOP BY PRICEPOINT</a></h6>
-                           <ul>
+                           <ul id="twenty-four">
                                <li> <a href="under50.html"> Under $25</a></li>
                                <li> <a href="under50.html"> $25-$49.99</a></li>
                                <li> <a href="under50.html"> Shop All Under $50</a></li>
@@ -574,8 +575,8 @@ function nav(){
                            </ul>
                        </div>
                        <div>
-                           <h6>SHOP BY CATEGORY</h6>
-                           <ul>
+                           <h6><a href="under50.html">SHOP BY CATEGORY</a></h6>
+                           <ul id="twenty-five">
                                <li> <a> Women</a></li>
                                <li> <a>Shoes</a></li>
                                <li> <a>Handbags & Accessories</a></li>
@@ -598,21 +599,21 @@ function nav(){
                        <div>
                            
                            <h6><a href="fragrance.html">FRAGRANCE</a></h6>
-                           <ul>
+                           <ul id="twenty-six">
                                <li> <a> Shop all</a></li>
                            </ul>
                        </div>
                        <div>
                            <h6><a href="skincare.html">SKINCARE</a></h6>
 
-                           <ul>
+                           <ul id="twenty-seven">
                                <li> <a> Shop all</a></li>
                            </ul>
                        </div>
                        <div>
                            <h6><a href="haircare.html">HAIRCARE</a></h6>
 
-                           <ul>
+                           <ul id="twenty-eight">
                                <li> <a> Shop all</a></li>
                            </ul>
                        </div>
@@ -631,7 +632,7 @@ function nav(){
                        </div>
                        <div>
                            <h6> <a href="clearancewomen.html">WOMEN'S</a> </h6>
-                           <ul>
+                           <ul id="twenty-nine">
                                <li> <a>Accessories</a></li>
                                <li> <a>Activewear </a></li>
                                <li> <a>Coats & Jackets</a></li>
@@ -651,7 +652,7 @@ function nav(){
                        </div>
                        <div>
                            <h6><a href="clearancemen.html">MEN'S</a></h6>
-                           <ul>
+                           <ul id="thirty">
                                <li> <a> Accessories</a></li>
                                <li> <a> Coats & Jackets</a></li>
                                <li> <a> Dress Shirts</a></li>
@@ -697,6 +698,7 @@ let time = () => {
         black.innerHTML = "<p>FREE SHIPPING On Order Over $99</p>"
     }, 6000);
 }
+
 
 
 export { nav, time };

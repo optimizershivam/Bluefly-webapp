@@ -1,6 +1,9 @@
-//  import shop from "../signincomponents/shop.js";
-
-// document.getElementById("shop_Products").innerHTML = shop();
+import{nav} from '../components/nav.js'
+import{bottom , lasthree} from '../components/bottom.js'
+// import {lasthree} from './components/bottom.js'
+document.getElementById("head").innerHTML=nav()
+document.getElementById("foot").innerHTML=bottom()
+document.getElementById("lasthree").innerHTML=lasthree()
 
 // let register = async (e) => {
 //     e.preventDefault();

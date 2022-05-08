@@ -1,10 +1,11 @@
-// import shop from "../signincomponents/shop.js";
+import{nav} from '../components/nav.js'
+import{bottom , lasthree} from '../components/bottom.js'
+// import {lasthree} from './components/bottom.js'
+document.getElementById("head").innerHTML=nav()
+document.getElementById("foot").innerHTML=bottom()
+document.getElementById("lasthree").innerHTML=lasthree()
 
-// document.getElementById("shop_Products").innerHTML = shop();
 
-
-// var UserAccount = JSON.parse(localStorage.getItem("UserData"));
-// console.log("UserAccount:",UserAccount)
 
 let data =JSON.parse(localStorage.getItem("UserData"))
 console.log("data:",data)
@@ -18,10 +19,10 @@ document.querySelector("form").addEventListener("submit", myfunction);
         let email =document.querySelector("#Email1").value;
         let password =document.querySelector("#Password1").value;
         console.log(email,password)
-        let count =0;
+        //let count =0;
          data.map(function(el){
           if(el.email==email && el.password==password){
-             count++;
+             //count++;
              console.log("el",el);
              
              let stored=JSON.parse(localStorage.getItem("UserData"));
@@ -35,9 +36,13 @@ document.querySelector("form").addEventListener("submit", myfunction);
           }
     
          })
-         if(count>0){
-             alert("Sign in Successfully =>");
-            //  window.location.href="index.html"
-         }
+        //  if(count>0){
+        //      alert("Sign in Successfully =>");
+        //     //  window.location.href="index.html"
+        //  }
             
     }
+
+     
+         
+
