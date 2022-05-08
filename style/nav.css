@@ -312,7 +312,18 @@ footer {
     margin-top: 10px;
     margin-bottom: 40px;
 }
-ul >li:hover
+
+.sub-menu h6 {
+    /* font-weight: 400; */
+    font-size: 13px;
+    color: black;
+}
+
+#cart-icon{
+    font-size: 0.8rem;
+    color: black;
+  
+ ul >li:hover
 {
    cursor: pointer; 
    font-size: 20px;

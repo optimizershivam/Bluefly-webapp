@@ -2,23 +2,26 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="" />
-  <title>Document</title>
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/4eeb94ebc8.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <title>Document</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/4eeb94ebc8.js" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="style/shipping.css">
+    <link rel="stylesheet" href="style/shipping.css">
 
 </head>
 
 <body>
     <div id="shippingitem">
         <div id="shippingitemDetails">
-            <a href="index.html" class="sitelogo">
-                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?180517" alt="" width="40%" height="40px">
+
+            <a href="#" class="sitelogo">
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?180517" alt=""
+                    width="40%" height="40px">
+
             </a>
             <div id="siteicons">
                 <a href="cart.html">Cart</a>
@@ -49,8 +52,10 @@
             <div id="shippingMethod">
                 <h2>Shipping method</h2>
                 <div class="free">
-                    <input type="radio" id="standard"value="Standard" checked>
-                    <label for="standard">
+
+                    <input type="radio" id="standard" value="Standard">
+                      <label for="standard">
+
                         <span>Standard</span>
                         <span id="free" style="float:right;">free</span>
                     </label>
@@ -66,8 +71,34 @@
             </div>
         </div>
         <hr>
-        <div id="SelectedItems"></div>
+        <!-- <div id="SelectedItems"></div> -->
+        <div id="userCartinfo">
+
+            <div id="insidecart">
+                <div id="one"> </div>
+            </div>
+         
+                <div id="two">
+                    <input type="text">
+                    <button>apply</button>
+                </div>
+          
+                <div id="three">
+                    <div class="sub">
+                        <h4>Subtotal</h4>  <h4 id="sub">0</h4> 
+                    </div>
+                    <div class="ship">
+                        <h4>Shipping</h4>   <h4>Free</h4> 
+                    </div>
+             
+                </div>
+                <div id="four"> <h4>Total</h4> <h1 id="tota">0</h1></div>
+            
+        </div>
     </div>
+    <!-- new added  -->
+   
+</body>
 
 
     <script src="scripts/shipping.js" type="module"></script>

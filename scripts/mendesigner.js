@@ -1005,6 +1005,9 @@ let appendData = (data) => {
         imag.src = image1;
 
         div1.append(imag);
+        div1.addEventListener("click",function(){
+            window.location.href="product.html"
+        })
 
         let br = document.createElement('h4');
         br.innerText = brand;

@@ -1,9 +1,11 @@
+
 #box{
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     gap: 50px;
+    margin-top: 200px;
 }
 #image{
     text-align: center;
@@ -72,6 +74,8 @@
 }
 #image-main{
     width: 60%;
+    margin-top: -300px;
+
 }
 #div11{
     margin-top: 150px;
@@ -131,4 +135,5 @@
 #likeheading{
     text-align: center;
     
+
 }

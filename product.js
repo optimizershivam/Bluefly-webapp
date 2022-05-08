@@ -1,9 +1,17 @@
 
 
+import{nav,time} from "./components/nav.js"
+
+document.getElementById("head").innerHTML=nav()
+
+time()
+
+
 const container = JSON.parse(localStorage.getItem("item"))
-console.log(container);
+// console.log(container)
+// console.log(container);
 // import {nav,bottom,lasthree} from "./components/nav.js"
-let cartData=JSON.parse(localStorage.getItem("cart")) ||[];
+let cartData=JSON.parse(localStorage.getItem("cart")) || []
 
     let image = document.createElement('div');
     let main_div = document.createElement('div');
@@ -67,6 +75,7 @@ let cartData=JSON.parse(localStorage.getItem("cart")) ||[];
     atcbtn.innerText="Add to Cart"
     atcbtn.setAttribute("id","atcbtn");
     atcbtn.addEventListener("click",function(){
+
         addToCart(container);
     });
     let paradiv= document.createElement("p")
@@ -86,9 +95,11 @@ let cartData=JSON.parse(localStorage.getItem("cart")) ||[];
     // document.querySelector("#box1").append( div12);
 
 
-    function addToCart(){
+    function addToCart( container){
+        // console.log(container)
         cartData.push(container);
         localStorage.setItem("cart",JSON.stringify(cartData));
+        window.location.href="index.html"
         // window.open("cart.html");
     }
     
@@ -134,4 +145,5 @@ sub.map(({source,text,money,original,percent})=>{
 
 
    document.getElementById("trendingnow").append(div)
+
 })

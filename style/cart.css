@@ -1,3 +1,4 @@
+
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 *{
@@ -58,8 +59,9 @@ header{
 
 }
 #cart-icon{
-    font-size: 1.8rem;
+    font-size: 1rem;
     cursor: pointer;
+    color: black;
 }
 
 /* Cart */
@@ -81,13 +83,20 @@ header{
     right: 0%;
     width: 360px;
     min-height: 100vh;
-    padding: 20px;
+    padding: 0px;
     background: var(--bg-color);
-    /* box-shadow: -2px 0 4px hsl(0 4% 15% / 10%); */
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
     transition: 0.3s;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    z-index: 1000;
+    max-height: 100vh;
+    
+    width: 420px;
+    
    
 }
+
+
 
 /* .cart-img{
     width: 100px;
@@ -219,4 +228,93 @@ header{
 }
 .add-cart:hover{
     background: hsl(249, 32%, 17%);
+}
+
+#insidecart{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: auto;
+    /* height: 200px; */
+    /* width: 60%; */
+}
+#insidecart2 img{
+    /* width: 30; */
+    height: 80px;
+    width: 80px;
+}
+#insidecart2{
+    /* border: 1px solid black; */
+    width: 40%;
+    text-align: center;
+}
+#inside{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 34%;
+    border-bottom: 1px solid rgb(220, 218, 218);
+}
+
+
+/* #cart11>div{
+    display: flex;
+    height: auto;
+    padding: 10px;
+    border-bottom: 1px solid rgb(220, 218, 218);
+    gap: 5px;
+} */
+#qwery{
+    overflow-y: scroll;
+    height:430px;
+    
+}
+#last{
+    text-align: center;
+}
+
+#qwery>div{
+    display: flex;
+    height: auto;
+    padding: 10px;
+    border-bottom: 1px solid rgb(220, 218, 218);
+}
+
+#qwery>div:nth-child(1){
+    margin-top: 80px;
+}
+
+
+
+#inside>div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+#cart11 p{
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+
+/* #cart11{
+    display: flex;
+} */
+
+#last>div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#last button{
+    background-color: black;
+    color: white;
+    width: 80%;
+    padding: 8px;
+
 }
