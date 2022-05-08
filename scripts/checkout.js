@@ -35,9 +35,9 @@ function sigiinfunction() {
             optional:optional,
             city:city,
             region:region,
-                    zipCode:zipCode,
+            zipCode:zipCode,
             state:state,
-    phoneno:phoneno
+            phoneno:phoneno
 
         }
         Address.push(AdressObj);
