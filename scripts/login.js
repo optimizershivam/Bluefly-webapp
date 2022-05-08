@@ -6,8 +6,6 @@ document.getElementById("foot").innerHTML=bottom()
 document.getElementById("lasthree").innerHTML=lasthree()
 
 
-// var UserAccount = JSON.parse(localStorage.getItem("UserData"));
-// console.log("UserAccount:",UserAccount)
 
 let data =JSON.parse(localStorage.getItem("UserData"))
 console.log("data:",data)
@@ -21,10 +19,10 @@ document.querySelector("form").addEventListener("submit", myfunction);
         let email =document.querySelector("#Email1").value;
         let password =document.querySelector("#Password1").value;
         console.log(email,password)
-        let count =0;
+        //let count =0;
          data.map(function(el){
           if(el.email==email && el.password==password){
-             count++;
+             //count++;
              console.log("el",el);
              
              let stored=JSON.parse(localStorage.getItem("UserData"));
@@ -38,9 +36,13 @@ document.querySelector("form").addEventListener("submit", myfunction);
           }
     
          })
-         if(count>0){
-             alert("Sign in Successfully =>");
-            //  window.location.href="index.html"
-         }
+        //  if(count>0){
+        //      alert("Sign in Successfully =>");
+        //     //  window.location.href="index.html"
+        //  }
             
     }
+
+     
+         
+

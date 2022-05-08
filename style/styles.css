@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap');
 
+.sub-menu h6 a{
+    color: black;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -382,6 +386,12 @@ padding-right: 10px;
         color: white;
     }
 
+    .carousel-caption button{
+        border: none;
+        padding: 10px 15px;
+        font-weight: 500;
+        font-size: 12px;
+    }
                           /* shop by category  */
 #shop h3{
     text-align: center;
@@ -494,17 +504,19 @@ nav  li:hover .sub-menu{
     color: #FFFFFF;
     height: 42px;
     width: 100%;
-    text-align: center;
+    display: flex;
 }
 #black p{
-    padding-top: 6px;
+    margin: auto;
 }
 #carouselExampleDark{
-    margin-top: 203px;
+    margin-top: 178px;
     height: 450px;
+    width: 100%;
 }
 #carouselExampleDark .carousel-item img{
     height: 450px;
+    width: 100%;
 }
 ul >li:hover
 {

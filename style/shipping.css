@@ -59,7 +59,7 @@
     margin-top: 20px;
     padding-right: 8px;
 }
-#shippingAdd .contactInfo, #shippingAdd .shippInfo{
+#shippingAdd .contactInfo, #shippingAdd .shippInfo, #shippingAdd .methodInfo {
     display: flex;
     flex-direction: row;
     height: 30px;
@@ -70,24 +70,28 @@
     margin-top: -10px;
     margin-bottom: 5px;
 }
-#shippingAdd .contactInfo #email, #shippingAdd .shippInfo #address {
+#shippingAdd .contactInfo #email, #shippingAdd .shippInfo #address, #shippingAdd .methodInfo #methodfree {
     margin-left: 35px;
     width: 70%;
     font-size: 14px;
     /* border: 1px solid red; */
 }
-#shippingAdd .contactInfo .contact, #shippingAdd .shippInfo .shipto {
+#shippingAdd .contactInfo .contact, #shippingAdd .shippInfo .shipto , #shippingAdd .methodInfo .method{
     /* border: 1px solid red; */
     font-size: 14px;
     color: #7a7aa3;
 }
-#shippingAdd .contactInfo a, #shippingAdd .shippInfo a{
+#shippingAdd .contactInfo a, #shippingAdd .shippInfo a, #shippingAdd .methodInfo a{
     display: flex;
     text-decoration: none;
     color: black;
     font-size: 12px;
     margin-left: 35px;
     /* border: 1px solid red; */
+}
+#shippingAdd .methodInfo{
+    margin-top: -8px;
+    margin-bottom: 5px;
 }
 
 #shippingitem #shippingMethod .free{

@@ -1,0 +1,76 @@
+#address{
+    width: 60%;
+    margin: auto;
+    margin-top: 210px;
+    padding: 10px;
+}
+#address .head{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 200;
+}
+#address h2{
+    font-weight: 200;
+}
+#ShippingAddress input{
+    /* border: 1px solid red; */
+    border: 1px solid #cabebe;
+    border-radius: 5px;
+}
+#ShippingAddress .FirstLastName{
+    display: flex;
+    gap: 10px;
+}
+#ShippingAddress .FirstLastName input, #ShippingAddress .countryAddress input{
+    width: 48%;
+    height: 40px;
+}
+#ShippingAddress .cityAddress,.PhoneNo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+#ShippingAddress .cityAddress input, #ShippingAddress .cityAddress select{
+    width: 98%;
+    height: 40px;
+    border: 1px solid #cabebe;
+    color: #757575;
+    border-radius: 5px;
+}
+#ShippingAddress .countryAddress{
+    display: flex;
+    height: 40px;
+    gap: 11px;
+    margin-top: 20px;
+}
+#ShippingAddress .countryAddress select{
+    width: 31%;
+    border-radius: 5px;
+    color: #757575;
+}
+#ShippingAddress .Continuetoshipping{
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#address .city input, #address .city select{
+    width: 48%;
+    border: 1px solid #cabebe;
+    border-radius: 5px;
+    color: #757575;;
+}
+
+#button{
+    width: 175px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 25PX;
+}
