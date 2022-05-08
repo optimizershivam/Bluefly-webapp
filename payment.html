@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="" />
+  <title>Document</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4eeb94ebc8.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="style/shipping.css">
+<link rel="stylesheet" href="style/payment.css">
+
+</head>
+
+<body>
+    <div id="shippingitem">
+        <div id="shippingitemDetails">
+            <a href="index.html" class="sitelogo">
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?180517" alt="" width="40%" height="40px">
+            </a>
+            <div id="siteicons">
+                <a href="cart.html">Cart</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="checkout.html">Information</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="shipping.html">Shipping</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="payment.html">Payment</a>
+            </div>
+            <div id="shippingAdd">
+                <div class="contactInfo">
+                    <div class="contact">Contact</div>
+                    <div id="email" style="margin-left:30px;"></div>
+                    <a href="checkout.html">
+                        <span>Change</span>
+                    </a>
+                </div>
+                <hr>
+                <div class="shippInfo">
+                    <div class="shipto">ship to</div>
+                    <div id="address"></div>
+                    <a href="checkout.html">
+                        <span>Change</span>
+                    </a>
+                </div>
+                <hr>
+                <div class="methodInfo">
+                    <div class="method">Method</div>
+                    <div id="methodfree"></div>
+                    <!-- <a href="#"> -->
+                        <!-- <span>Change</span> -->
+                    <!-- </a> -->
+                </div>
+            </div>
+            <div id="paymentMethod">
+                <h2 style="font-size:18px; font-weight: 475;">Payment</h2>
+                <p style="margin-top:-10px">All transactions are secure and encrypted.</p>
+                <div id="selectcards">
+                    <div class="free">
+                        <input type="radio"  id="standard" checked value="Standard">
+                            <label for="standard">
+                            <span>Credit Card</span>
+                            <img src="https://library.kissclipart.com/20181007/sce/kissclipart-paypal-visa-mastercard-american-express-discover-c-dc202c06b5ad0879.png" alt="" width="50%" height="80%">
+                            </label>
+                    </div>
+                    <hr>
+                    <div id="paymentcards">
+                        <input type="text" placeholder="Card number">
+                        <input type="text" placeholder="Name on card">
+                        <div id="date">
+                            <input type="text" placeholder="Expiration Date (MM/YY)">
+                            <input type="text" placeholder="Security code">
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <input type="radio"  id="paypal" value="Paypal" style="margin-bottom: 20px">
+                            <label for="paypal">
+                            <span>Paypal</span>
+                    </div>
+                </div>
+            </div>
+            <div id="addresschange">
+                <h2 style="font-size:18px; font-weight: 475;">Billing address</h2>
+                <p style="margin-top:-10px">Select the address that matches your card or payment method.</p>
+                <div id="whichAddress">
+                <input type="radio"  id="sameAsShhipping" checked value="Paypal">
+                     <label for="sameAsShhipping">
+                    <span>Same as shipping address</span>
+                <hr>
+                <input type="radio"  id="useDiffernt" value="Paypal">
+                    <label for="useDiffernt">
+                    <span>Use a different biling address</span>                      
+                </div>
+
+            </div>
+            <div id="remember">
+                <h2 style="font-size:18px; font-weight: 475;">Remember me</h2>
+                <div>
+                    <input type="checkbox" id="rememberMe" checked name="Remember me">
+                <label for="rememberMe">Save my information for faster checkout</label>
+                </div>
+            </div>
+            
+            <div class="ContinuetoPayment">
+                <a href="shipping.html">
+                    <i class="fa-solid fa-chevron-left" style="color: black;"></i>
+                    <span id="againCart">Return to information</span></a>
+                <a href="#">
+                    <button id="ToShipping">Continue to payment</button>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <!-- <div id="SelectedItems"></div> -->
+        <div id="userCartinfo">
+
+            <div id="insidecart">
+                <div id="one"> </div>
+            </div>
+         
+                <div id="two">
+                    <input type="text">
+                    <button>apply</button>
+                </div>
+          
+                <div id="three">
+                    <div class="sub">
+                        <h4>Subtotal</h4>  <h4 id="sub">0</h4> 
+                    </div>
+                    <div class="ship">
+                        <h4>Shipping</h4>   <h4>Free</h4> 
+                    </div>
+             
+                </div>
+                <div id="four"> <h4>Total</h4> <h1 id="tota">0</h1></div>
+            
+        </div>
+    </div>
+    </div>
+
+
+    <script src="scripts/payment.js" type="module"></script>

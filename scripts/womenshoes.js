@@ -1008,6 +1008,11 @@ let appendData = (data) => {
 
         div1.append(imag);
 
+        // new change by rohit 
+        div1.addEventListener("click",function(){
+            window.location.href="product.html"
+        })
+
         let br = document.createElement('h4');
         br.innerText = brand;
         br.style.color = "#7c768a"
