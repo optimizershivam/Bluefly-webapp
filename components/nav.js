@@ -15,8 +15,10 @@ function nav(){
                <span>Search</span>
            </svg>
        </div>
-       <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.5em"
-           preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+   
+    <a href="login.html" style="color:black"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.5em"
+       preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+
            <g fill="none" stroke="currentColor" stroke-width="2">
                <circle cx="12" cy="7" r="5" />
                <path stroke-linecap="round" stroke-linejoin="round"
@@ -24,7 +26,7 @@ function nav(){
            </g>
        </svg>
        <li>
-       <a href="index.html" onclick="opennav()">
+       <a href="javascript:void(0)" onclick="openNav()">
        <svg  xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.5em"
            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" id="cart-icon">
            
@@ -35,8 +37,9 @@ function nav(){
                    d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10Z" />
                <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5" />
            </g>
-           </a>
+           
        </svg>
+       </a>
        </li>
    </div>
 </div>
@@ -677,10 +680,7 @@ function nav(){
 </nav>
 <div id="black">
 <p>WELCOME TO BLUEFLY : luxury brand at discounted price</p>
-</div>
-
-
-   `
+</div>`
 }
 
 
@@ -698,6 +698,7 @@ let time = () => {
         black.innerHTML = "<p>FREE SHIPPING On Order Over $99</p>"
     }, 6000);
 }
+
 
 
 

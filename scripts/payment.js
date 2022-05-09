@@ -1,7 +1,7 @@
 
 const cart1 = JSON.parse(localStorage.getItem("cart")) || [];
 
-console.log(cart1);
+// console.log(cart1);
 let sum = 0;
 cart1.map(({ image1, brand, title, price }) => {
 
@@ -59,13 +59,21 @@ cart1.map(({ image1, brand, title, price }) => {
 
 
 
+let data=JSON.parse(localStorage.getItem("UserAddress"))
+
+    let last = data[data.length-1]
+ 
 
 
-
-document.getElementById("email").innerText=JSON.parse(localStorage.getItem("UserandMail"));
-
-
-document.getElementById("address").innerText=JSON.parse(localStorage.getItem("ShippinADDress"));
+console.log(last)
 
 
-document.getElementById("methodfree").innerText=JSON.parse(localStorage.getItem("Method"));
+document.getElementById("email").innerText=last.phoneno;
+
+// console.log(JSON.parse(localStorage.getItem("UserandMail")))
+
+
+document.getElementById("address").innerText=last.address;
+
+
+// document.getElementById("methodfree").innerText=JSON.parse(localStorage.getItem("Method"));

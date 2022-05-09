@@ -380,7 +380,8 @@ padding-right: 10px;
 /* top CAROSOLE   */
     .carousel-caption h1{
         color: white;
-        margin-top: -38%;
+        font-size: 60px;
+        margin-top: -25%;
     }
     .carousel-caption p{
         color: white;
@@ -452,7 +453,7 @@ nav  li:hover .sub-menu{
 
 .sub-menu a{
     padding: 0;
-    color: blue;
+    color: black;
 }
 .menu-category{
     display: grid;
