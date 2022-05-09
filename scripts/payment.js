@@ -51,6 +51,7 @@ cart1.map(({ image1, brand, title, price }) => {
 })
 
 
+document.querySelector("#textValue").innerText = `Your Cart Total is (${cart1.length} items) $ ${Math.ceil(sum)}`;
 
 
 
@@ -58,22 +59,49 @@ cart1.map(({ image1, brand, title, price }) => {
 
 
 
+let data = JSON.parse(localStorage.getItem("UserAddress"))
 
-let data=JSON.parse(localStorage.getItem("UserAddress"))
+let last = data[data.length - 1]
 
-    let last = data[data.length-1]
- 
 
 
 console.log(last)
 
 
-document.getElementById("email").innerText=last.phoneno;
+document.getElementById("email").innerText = last.phoneno;
 
 // console.log(JSON.parse(localStorage.getItem("UserandMail")))
 
 
-document.getElementById("address").innerText=last.address;
+document.getElementById("address").innerText = last.address;
 
 
 // document.getElementById("methodfree").innerText=JSON.parse(localStorage.getItem("Method"));
+
+
+document.querySelector("#promo").addEventListener("click", discount);
+
+var count = 0;
+function discount() {
+    var input = document.querySelector("#promoInput").value;
+
+    if (input == "masai30" && count == 0) {
+        sum = sum * 0.7;
+        document.querySelector("#textValue").innerText = `Your Cart Total is (${cart1.length} items) $ ${Math.ceil(sum).toFixed(2)}`;
+        document.getElementById("sub").innerText = `$${Math.ceil(sum).toFixed(2)
+            }`
+        document.getElementById("tota").innerText = `$${Math.ceil(sum).toFixed(2)
+            }`
+        alert("Promo applied");
+        count++;
+    }
+    else if (input == "masai30" && count > 0) {
+        alert("Promo Code already in use");
+    }
+    else {
+        alert("Enter valid promo code !");
+    }
+
+}
+
+console.log(sum)

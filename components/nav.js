@@ -50,7 +50,7 @@ function nav(){
 
 
 
-           <li> <a href="/"  class="hov" > SHOES</a>
+           <li> <a href="#"  class="hov" > SHOES</a>
                <div class="sub-menu">
                    <ul class="menu-category">
                        <div><img
@@ -144,7 +144,7 @@ function nav(){
 
 
 
-           <li> <a href="/" class="hov" > HANDBAGS & ACCESSORIES</a>
+           <li> <a href="#" class="hov" > HANDBAGS & ACCESSORIES</a>
                <div class="sub-menu">
                    <ul class="menu-category-2">
                        <div><img
@@ -222,7 +222,7 @@ function nav(){
            </li>
 
 <!-- third li   -->
-           <li> <a href="/" class="hov" > DESIGNERS</a>
+           <li> <a href="#" class="hov" > DESIGNERS</a>
            
                <div class="sub-menu">
                    <ul class="menu-category-3">
@@ -276,7 +276,7 @@ function nav(){
 
 <!-- FOURTH LI   -->
 
-           <li> <a href="/" class="hov" > WOMEN</a>
+           <li> <a href="#" class="hov" > WOMEN</a>
                <div class="sub-menu">
                    <ul class="menu-category">
                        <div><img
@@ -366,7 +366,7 @@ function nav(){
                    </ul>
                </div>
            </li>
-           <li> <a href="/" class="hov" > MEN</a>
+           <li> <a href="#" class="hov" > MEN</a>
                <div class="sub-menu">
                    <ul class="menu-category-2">
                        <div><img
@@ -440,7 +440,7 @@ function nav(){
                </div>
 
            </li>
-           <li> <a href="/" class="hov" > SUNGLASSES</a>
+           <li> <a href="#" class="hov" > SUNGLASSES</a>
                <div class="sub-menu">
                    <ul class="menu-category-4">
                        <div><img
@@ -496,7 +496,7 @@ function nav(){
                    </ul>
                </div>
            </li>
-           <li> <a href="/" class="hov" > JEWELRY & WATCHES</a>
+           <li> <a href="#" class="hov" > JEWELRY & WATCHES</a>
                <div class="sub-menu">
                    <ul class="menu-category">
                        <div><img
@@ -565,7 +565,7 @@ function nav(){
    </div>
    <div id="navbar2">
        <ul>
-           <li> <a href="/" class="hov" > UNDER $50</a>
+           <li> <a href="#" class="hov" > UNDER $50</a>
                <div class="sub-menu">
                    <ul class="menu-category-5">
                        <div>
@@ -595,7 +595,7 @@ function nav(){
                </div>
 
            </li>
-           <li> <a href="/" class="hov" > BEAUTY</a>
+           <li> <a href="#" class="hov" > BEAUTY</a>
                <div class="sub-menu">
                    <ul class="menu-category-3">
 
@@ -623,7 +623,7 @@ function nav(){
                </ul>
                </div>
            </li>
-           <li> <a href="/" class="hov"  style="color: rgb(214, 110, 128);"> CLEARANCE</a>
+           <li> <a href="#" class="hov"  style="color: rgb(214, 110, 128);"> CLEARANCE</a>
 
 
                <div class="sub-menu">

@@ -133,7 +133,10 @@
     /* border: 1px solid black; */
 }
 #two button{
-    width: 100px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 #two input{
     width: 300px;

@@ -233,8 +233,11 @@
     border-bottom: 1px solid rgb(66, 64, 64);
     /* border: 1px solid black; */
 }
-#two button{
-    width: 100px;
+#two button {
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 #two input{
     width: 300px;
